@@ -11,7 +11,7 @@ module.exports=(app)=>{
             return filePath;
         }
 
-        return '/' +JSON.parse(fs.readFileSync(path.join(__dirname,'../public/assets/rev-manifest.json')))[filePath];
+        return 'http://http://3.84.222.26:8000/' +JSON.parse(fs.readFileSync(path.join(__dirname,'../public/assets/rev-manifest.json')))[filePath];
     }
 }
   
