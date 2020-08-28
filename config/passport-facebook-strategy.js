@@ -5,9 +5,9 @@ const User=require("../models/user")
 
 //use of google startegy using passport
 passport.use(new FacebookStrategy({
-    clientID: '307337027063550',
-    clientSecret: '825e85aee8ef2c37a290e5a187b128e9',
-    callbackURL: "http://localhost:8000/users/auth/facebook/callback"
+    clientID: '123',
+    clientSecret: '123',
+    callbackURL: "xyz"
   },
   //once we get response from google execute this function
   function(accessToken, refreshToken, profile, done) {
